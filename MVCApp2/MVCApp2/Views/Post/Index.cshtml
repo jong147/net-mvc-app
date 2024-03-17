@@ -1,0 +1,86 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model Post
+
+<a href="@Url.Action("Create", "Post")" class="btn btn-primary">Create</a>
+
+<div class="row">
+    @using (Html.BeginForm("Index","Post",FormMethod.Post, new { htmlAttributes = new { @class = "form-class col-8" }}))
+    {
+        <div class="row">
+            <div class="col-6">
+                @Html.LabelFor(model => model.id)
+                @Html.TextBoxFor(model => model.id, new { @class = "form-control" })
+            </div>
+
+            <div class="col-6">
+                @Html.LabelFor(model => model.title)
+                @Html.TextBoxFor(model => model.title, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                @Html.LabelFor(model => model.body)
+                @Html.TextBoxFor(model => model.body, new { @class = "form-control" })
+            </div>
+
+            <div class="col-6">
+                @Html.LabelFor(model => model.userId)
+                @Html.TextBoxFor(model => model.userId, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    }
+</div>
+
+<div class="row">
+    <table class="table table-light table-striped col-8 text-center">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Title
+                </th>
+                <th>
+                    Body
+                </th>
+                <th>
+                    User id
+                </th>
+                <th>
+                    Options
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Post item in (List<Post>)ViewData["postListViewData"]!)
+            {
+                <tr>
+                    <td>
+                        @item.id
+                    </td>
+                    <td>
+                        @item.title
+                    </td>
+                    <td>
+                        @item.body
+                    </td>
+                    <td>
+                        @item.userId
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Edit","Post", new { @Post = item } )" class="btn btn-success">Edit</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\MVCApp2\MVCApp2.Tests\bin\Release\net8.0\publish\NUnit3.TestAdapter.dll
+C:\Users\Administrator\source\repos\MVCApp2\MVCApp2.Tests\bin\Release\net8.0\publish\NUnit3.TestAdapter.pdb
+C:\Users\Administrator\source\repos\MVCApp2\MVCApp2.Tests\bin\Release\net8.0\publish\nunit.engine.dll
+C:\Users\Administrator\source\repos\MVCApp2\MVCApp2.Tests\bin\Release\net8.0\publish\nunit.engine.api.dll
+C:\Users\Administrator\source\repos\MVCApp2\MVCApp2.Tests\bin\Release\net8.0\publish\nunit.engine.core.dll
+C:\Users\Administrator\source\repos\MVCApp2\MVCApp2.Tests\bin\Release\net8.0\publish\testcentric.engine.metadata.dll
+C:\Users\Administrator\source\repos\MVCApp2\MVCApp2.Tests\bin\Release\net8.0\publish\MVCApp2.Tests.dll
+C:\Users\Administrator\source\repos\MVCApp2\MVCApp2.Tests\bin\Release\net8.0\publish\MVCApp2.Tests.deps.json
+C:\Users\Administrator\source\repos\MVCApp2\MVCApp2.Tests\bin\Release\net8.0\publish\MVCApp2.Tests.pdb
+C:\Users\Administrator\source\repos\MVCApp2\MVCApp2.Tests\bin\Release\net8.0\publish\nunit.framework.dll
+C:\Users\Administrator\source\repos\MVCApp2\MVCApp2.Tests\bin\Release\net8.0\publish\nunit.framework.legacy.dll

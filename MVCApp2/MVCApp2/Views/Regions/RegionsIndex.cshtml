@@ -1,0 +1,128 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using MVCApp2.Models.Covid19CallApi
+@model Regions
+
+@* <div class="row mt-3"> *@
+@* <form asp-action="RegionsIndex" class="col-md-8 col-lg-8"> *@
+<form asp-action="RegionsIndex" class="">
+    <div class="row">
+
+        <div class="form-group col-md-2 col-lg-2">
+            <select asp-for="name" class="form-control">
+                <option value="">Choose a region</option>
+                @foreach (var option in (IEnumerable<string>)ViewData["regionNamesViewData"]!)
+                {
+                    <option value="@option">@option</option>
+                }
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary col-md-2 col-lg-2">Report</button>
+
+        @if (((IEnumerable<Top10Provinces>)ViewData["provincesListViewData"]!).Count() != 0)
+        {
+            <a href="@Url.Action("exportTop10ProvincesToXml","Regions",
+        new {
+                iso = Model.iso,
+                name = Model.name,
+                province = Model.province,
+                lat = Model.lat,
+                longitude = Model.longitude
+            })"
+               class="btn btn-light offset-md-2 offset-lg-2 col-md-2 col-lg-2">XML</a>
+            <a href="@Url.Action("exportTop10ProvincesToJson","Regions",
+        new {
+                iso = Model.iso,
+                name = Model.name,
+                province = Model.province,
+                lat = Model.lat,
+                longitude = Model.longitude
+            })"
+               class="btn btn-light col-md-2 col-lg-2">JSON</a>
+            <a href="@Url.Action("exportTop10ProvincesToCsv","Regions",
+        new {
+                iso = Model.iso,
+                name = Model.name,
+                province = Model.province,
+                lat = Model.lat,
+                longitude = Model.longitude
+            })"
+               class="btn btn-light col-md-2 col-lg-2">CSV</a>
+        }
+        else
+        {
+            <a href="@Url.Action("exportTop10RegionsToXml","Regions")" class="btn btn-light offset-md-2 offset-lg-2 col-md-2 col-lg-2">XML</a>
+            <a href="@Url.Action("exportTop10RegionsToJson","Regions")" class="btn btn-light col-md-2 col-lg-2">JSON</a>
+            <a href="@Url.Action("exportTop10RegionsToCsv","Regions")" class="btn btn-light col-md-2 col-lg-2">CSV</a>
+        }
+    </div>
+</form>
+@* </div> *@
+
+<div class="row mt-3">
+    @* <table class="table table-light table-striped col-sm-12 col-md-8 col-lg-8 text-center"> *@
+    <table class="table table-light table-striped text-center">
+        <thead>
+            <tr>
+                @if (((IEnumerable<Top10Provinces>)ViewData["provincesListViewData"]!).Count() != 0)
+                {
+                    <th>
+                        Province
+                    </th>
+                }
+                else
+                {
+                    <th>
+                        Region
+                    </th>
+                }
+                <th>
+                    Cases
+                </th>
+                <th>
+                    Deaths
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (((IEnumerable<Top10Provinces>)ViewData["provincesListViewData"]!).Count() != 0)
+            {
+                foreach (Top10Provinces item in (IEnumerable<Top10Provinces>)ViewData["provincesListViewData"]!)
+                {
+                    <tr>
+                        <td>
+                            @item.Province
+                        </td>
+                        <td>
+                            @item.Cases
+                        </td>
+                        <td>
+                            @item.Deaths
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                foreach (Top10Regions item in (IEnumerable<Top10Regions>)ViewData["reportsListViewData"]!)
+                {
+                    <tr>
+                        <td>
+                            @item.Region
+                        </td>
+                        <td>
+                            @item.Cases
+                        </td>
+                        <td>
+                            @item.Deaths
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
