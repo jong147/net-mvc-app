@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KixpF5z2P0I2UXI27eWo23Bkr1A6KgibgtADTG24bTXwjBqRSqykXGpvxMg7ZSDGmJOY7G9q71l1ZyF0vNX/Pg==",
+  "dgSpecHash": "QWKCrPNi3fbLxu2uc42qVTB/liqJn06xf6MznNWjbleTDH2DIAvvOxMzI0aIjhn2G4QomtZ3FVgelIUhtr450w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\MVCApp2\\MVCApp2.Tests\\MVCApp2.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\net-mvc-app\\MVCApp2\\MVCApp2.Tests\\MVCApp2.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

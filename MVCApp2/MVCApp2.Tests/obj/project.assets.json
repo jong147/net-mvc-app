@@ -992,11 +992,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\MVCApp2\\MVCApp2.Tests\\MVCApp2.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\net-mvc-app\\MVCApp2\\MVCApp2.Tests\\MVCApp2.Tests.csproj",
       "projectName": "MVCApp2.Tests",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\MVCApp2\\MVCApp2.Tests\\MVCApp2.Tests.csproj",
+      "projectPath": "C:\\Users\\Administrator\\source\\repos\\net-mvc-app\\MVCApp2\\MVCApp2.Tests\\MVCApp2.Tests.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\MVCApp2\\MVCApp2.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\source\\repos\\net-mvc-app\\MVCApp2\\MVCApp2.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

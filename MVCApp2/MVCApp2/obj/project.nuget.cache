@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G9t6koZkXW7nOSe9e+qt1CrfZwVKOny6LKLKJ/0F6ziHDg9gqw3AcRWpeojDDMrvMb8fg0I3rYHrFlOmsSY+ug==",
+  "dgSpecHash": "AwzJtJEw5igC+BoJT99vMcCg7RaDrykeb4sSPDY/GPr2tw2L5MHpG1+uVQTEJ2epvQNCkOMl0++gIFBjCIKIYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\MVCApp2\\MVCApp2\\MVCApp2.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\net-mvc-app\\MVCApp2\\MVCApp2\\MVCApp2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

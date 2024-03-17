@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\MVCApp2\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\net-mvc-app\\MVCApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDF9624E-5BDE-4FD8-9705-E976B66F0F98}|MVCApp2\\MVCApp2.csproj|c:\\users\\administrator\\source\\repos\\mvcapp2\\mvcapp2\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{DDF9624E-5BDE-4FD8-9705-E976B66F0F98}|MVCApp2\\MVCApp2.csproj|c:\\users\\administrator\\source\\repos\\net-mvc-app\\mvcapp2\\mvcapp2\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DDF9624E-5BDE-4FD8-9705-E976B66F0F98}|MVCApp2\\MVCApp2.csproj|solutionrelative:mvcapp2\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDF9624E-5BDE-4FD8-9705-E976B66F0F98}|MVCApp2\\MVCApp2.csproj|c:\\users\\administrator\\source\\repos\\mvcapp2\\mvcapp2\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDF9624E-5BDE-4FD8-9705-E976B66F0F98}|MVCApp2\\MVCApp2.csproj|C:\\Users\\Administrator\\source\\repos\\net-mvc-app\\MVCApp2\\mvcapp2\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDF9624E-5BDE-4FD8-9705-E976B66F0F98}|MVCApp2\\MVCApp2.csproj|solutionrelative:mvcapp2\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDF9624E-5BDE-4FD8-9705-E976B66F0F98}|MVCApp2\\MVCApp2.csproj|C:\\Users\\Administrator\\source\\repos\\MVCApp2\\mvcapp2\\views\\regions\\regionsindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDF9624E-5BDE-4FD8-9705-E976B66F0F98}|MVCApp2\\MVCApp2.csproj|solutionrelative:mvcapp2\\views\\regions\\regionsindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DDF9624E-5BDE-4FD8-9705-E976B66F0F98}|MVCApp2\\MVCApp2.csproj|C:\\Users\\Administrator\\source\\repos\\net-mvc-app\\MVCApp2\\mvcapp2\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF9624E-5BDE-4FD8-9705-E976B66F0F98}|MVCApp2\\MVCApp2.csproj|solutionrelative:mvcapp2\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDF9624E-5BDE-4FD8-9705-E976B66F0F98}|MVCApp2\\MVCApp2.csproj|c:\\users\\administrator\\source\\repos\\mvcapp2\\mvcapp2\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDF9624E-5BDE-4FD8-9705-E976B66F0F98}|MVCApp2\\MVCApp2.csproj|solutionrelative:mvcapp2\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDF9624E-5BDE-4FD8-9705-E976B66F0F98}|MVCApp2\\MVCApp2.csproj|C:\\Users\\Administrator\\source\\repos\\net-mvc-app\\MVCApp2\\mvcapp2\\views\\regions\\regionsindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDF9624E-5BDE-4FD8-9705-E976B66F0F98}|MVCApp2\\MVCApp2.csproj|solutionrelative:mvcapp2\\views\\regions\\regionsindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,35 +32,35 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\MVCApp2\\MVCApp2\\Views\\Clients\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\net-mvc-app\\MVCApp2\\MVCApp2\\Views\\Clients\\Index.cshtml",
               "RelativeDocumentMoniker": "MVCApp2\\Views\\Clients\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\MVCApp2\\MVCApp2\\Views\\Clients\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\net-mvc-app\\MVCApp2\\MVCApp2\\Views\\Clients\\Index.cshtml",
               "RelativeToolTip": "MVCApp2\\Views\\Clients\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAdAAAA",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAJ4AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-17T15:41:55.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegionsController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\MVCApp2\\MVCApp2\\Controllers\\RegionsController.cs",
-              "RelativeDocumentMoniker": "MVCApp2\\Controllers\\RegionsController.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\MVCApp2\\MVCApp2\\Controllers\\RegionsController.cs",
-              "RelativeToolTip": "MVCApp2\\Controllers\\RegionsController.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAASwDQAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\net-mvc-app\\MVCApp2\\MVCApp2\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "MVCApp2\\Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\net-mvc-app\\MVCApp2\\MVCApp2\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "MVCApp2\\Controllers\\ClientsController.cs",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAgwKgAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T22:53:48.416Z",
+              "WhenOpened": "2024-03-17T15:17:03.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RegionsIndex.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\MVCApp2\\MVCApp2\\Views\\Regions\\RegionsIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\net-mvc-app\\MVCApp2\\MVCApp2\\Views\\Regions\\RegionsIndex.cshtml",
               "RelativeDocumentMoniker": "MVCApp2\\Views\\Regions\\RegionsIndex.cshtml",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\MVCApp2\\MVCApp2\\Views\\Regions\\RegionsIndex.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\net-mvc-app\\MVCApp2\\MVCApp2\\Views\\Regions\\RegionsIndex.cshtml",
               "RelativeToolTip": "MVCApp2\\Views\\Regions\\RegionsIndex.cshtml",
               "ViewState": "AQIAAGEAAAAAAAAAAAAiwH8AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -69,15 +69,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClientsController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\MVCApp2\\MVCApp2\\Controllers\\ClientsController.cs",
-              "RelativeDocumentMoniker": "MVCApp2\\Controllers\\ClientsController.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\MVCApp2\\MVCApp2\\Controllers\\ClientsController.cs",
-              "RelativeToolTip": "MVCApp2\\Controllers\\ClientsController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAowAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "RegionsController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\net-mvc-app\\MVCApp2\\MVCApp2\\Controllers\\RegionsController.cs",
+              "RelativeDocumentMoniker": "MVCApp2\\Controllers\\RegionsController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\net-mvc-app\\MVCApp2\\MVCApp2\\Controllers\\RegionsController.cs",
+              "RelativeToolTip": "MVCApp2\\Controllers\\RegionsController.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAASwDQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T15:17:03.088Z",
+              "WhenOpened": "2024-03-14T22:53:48.416Z",
               "EditorCaption": ""
             }
           ]

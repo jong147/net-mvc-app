@@ -150,19 +150,43 @@ namespace MVCApp2.Controllers
         [Route("/Clients/Delete")]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Delete(Clients item)
-        //public ActionResult Delete(Clients item)
         {
             try
             {
                 database.Remove(item);
                 await database.SaveChangesAsync();
-                //database.SaveChanges();
                 return RedirectToAction("Index");
             }
             catch (Exception e)
             {
                 Console.WriteLine("Error" + e);
                 return View(item);
+            }
+        }
+
+        [HttpPost]
+        [Route("/Clients/ClientDelete")]
+        //[ValidateAntiForgeryToken]
+        public async Task<ActionResult> ClientDelete(string id)
+        {
+            try
+            {
+                Clients item = (from client in database.Clients where client.Id == id select client).FirstOrDefault()!;
+
+                //if (item == null)
+                //{
+                //    return NotFound();
+                //}
+
+                database.Remove(item);
+                await database.SaveChangesAsync();
+                //return RedirectToAction("Index");
+                return Ok();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error: " + e);
+                return Content($"Error: " + e);
             }
         }
 

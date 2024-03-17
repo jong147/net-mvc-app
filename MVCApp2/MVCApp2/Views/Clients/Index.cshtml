@@ -54,6 +54,7 @@
                 <td>
                     <a href="@Url.Action("Edit", "Clients", new { Id = item.Id})" class="btn btn-success">Edit</a>
                     <a href="@Url.Action("Delete", "Clients", new { Id = item.Id })" class="btn btn-danger">Delete</a>
+                    <a class="btn btn-warning" onclick="deleteFunction(@item.Id);">Delete 2</a>
                 </td>
             </tr>
         }
@@ -145,8 +146,25 @@ else
 
 @* <canvas id="myChart" width="200" height="200"></canvas> *@
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+@* <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script> *@
 <script>
+    function deleteFunction(idArgument) {
+        
+
+        $.ajax({
+            url: "/Clients/ClientDelete",
+            type: "POST",
+            data: { id: idArgument },
+            success: function (response) {
+                location.href = location.href;
+            },
+            error: function (request, msg, error) {
+                console.log("Error deleting" + request.status + msg);
+            }
+        });
+        
+    }
+
     // var ctx = document.getElementById('myChart').getContext('2d');
     // var myChart = new Chart(ctx, {
     //     type: 'bar',
